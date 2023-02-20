@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td {
+        font-family: calibri;
+        border-collapse: collapse;
+    }
+    .classtable {
+        border: 1px solid black;
+        text-align: left;
+        width: 25%;
+        padding: 5px;
+        background-color: rgb(236, 236, 236);
+    }
+    .classtable2 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        text-align: left;
+        width: 50%;
+        padding: 5px;
+    }
+    .classtable3 {
+        border: 1px solid black;
+        text-align: left;
+        width: 25%;
+        padding: 5px;
+    }
+    </style>
+<body>
+    <p><a href="gatitos.html">Ir a gatitos</a></p>
+    <table>
+        <tr>
+          <th colspan="3" class="classtable">Invoice #123456789</th>
+          <th class="classtable">14 January 2023</th>
+        </tr>
+        <tr>
+          <td colspan="2" class="classtable2"><b>Pay to:</b></td>
+          <td colspan="2" class="classtable2"><b>Customer:</b></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="classtable2">Acme Billing Co.</td>
+            <td colspan="2" class="classtable2">John Smith</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="classtable2">123 Main St.</td>
+            <td colspan="2" class="classtable2">321 Willow Way</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="classtable2">Cityville, NA 12345</td>
+            <td colspan="2" class="classtable2">Southeast Northwestershire, MA 54321</td>
+          </tr>
+          <tr>
+            <td class="classtable"><b>Name / Descripcion</b></td>
+            <td class="classtable"><b>Qty</b></td>
+            <td class="classtable">@</td>
+            <td class="classtable"><b>Cost</b></td>
+          </tr>
+          <tr>
+            <td class="classtable3">Paperclips</td>
+            <td class="classtable3">1000</td>
+            <td class="classtable3">0.01</td>
+            <td class="classtable3">10.00</td>
+          </tr>
+          <tr>
+            <td class="classtable3">Staples (box)</td>
+            <td class="classtable3">100</td>
+            <td class="classtable3">1</td>
+            <td class="classtable3">100.00</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="classtable"><b>Subtotal</b></td>
+            <td class="classtable3">110.00</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="classtable"><b>Tax</b></td>
+            <td class="classtable3">8%</td>
+            <td class="classtable3">8.80</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="classtable"><b>Grand Total</b></td>
+            <td class="classtable3">$ 118.80</td>
+          </tr>
+      </table>
+</body>
+</html>
